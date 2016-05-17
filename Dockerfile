@@ -62,4 +62,4 @@ USER 0
 ADD sources/odoo.conf /etc/odoo/odoo.conf
 WORKDIR /app
 ADD bin /app/bin/
-EXPOSE 8069 8072
+EXPOSE 80 8072
